@@ -1,8 +1,10 @@
-﻿namespace EdabitChallenges
+﻿using System.Globalization;
+
+namespace EdabitChallenges
 {
-    class NumberToMouthName
+    public class NumberToMouthName
     {
-        private string? ConvertNumberToMonthName(int num)
+        public string ConvertNumberToMonthName(int? num)
         {
             return num switch
             {
@@ -21,5 +23,9 @@
                 _ => null
             };
         }
+        
+        public  string? ConvertNumberToMonthNameTwo(int num) => DateTimeFormatInfo.CurrentInfo != null
+            ? DateTimeFormatInfo.CurrentInfo.GetMonthName(num)
+            : null;
     }
 }

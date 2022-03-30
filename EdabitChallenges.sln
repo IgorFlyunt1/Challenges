@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdabitChallenges", "EdabitChallenges\EdabitChallenges.csproj", "{A5198D07-B70D-4BF0-B2CA-6D6F9240373F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenges", "Challenges\Challenges.csproj", "{A5198D07-B70D-4BF0-B2CA-6D6F9240373F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengesTests", "..\EdabitChallengesTests\ChallengesTests\ChallengesTests.csproj", "{E1D0AED9-BCD5-42C8-9927-34D3C59DCA03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +14,9 @@ Global
 		{A5198D07-B70D-4BF0-B2CA-6D6F9240373F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5198D07-B70D-4BF0-B2CA-6D6F9240373F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5198D07-B70D-4BF0-B2CA-6D6F9240373F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1D0AED9-BCD5-42C8-9927-34D3C59DCA03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D0AED9-BCD5-42C8-9927-34D3C59DCA03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D0AED9-BCD5-42C8-9927-34D3C59DCA03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D0AED9-BCD5-42C8-9927-34D3C59DCA03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
